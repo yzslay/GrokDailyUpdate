@@ -24,7 +24,8 @@
     summary { cursor: pointer; font-weight: 700; }
     .updated { margin-top: 1rem; color: var(--muted); font-size: 0.9rem; }
     @media (max-width: 480px) { .status { grid-template-columns: 1fr; } .status dt { margin-top: 0.4rem; } }
-  </style>
+  .log-box>summary{cursor:pointer;font-weight:700;margin:1em 0 .5em}
+</style>
 </head>
 <body>
   <div class="wrap">
@@ -47,7 +48,8 @@
           <dd>進到下一關卡，山丘的地層，200 層。</dd>
         </dl>
 
-        <h3>進度紀錄</h3>
+        <details class="log-box">
+          <summary>進度紀錄（6 筆）</summary>
         <ol class="log" reversed>
           <li><time>10/21 22:42</time>進到下一關卡，山丘的地層，200 層。</li>
 <li><time>10/21 22:04</time>打到長老廣場，拿到蕉力全開技能。</li>
@@ -56,6 +58,7 @@
           <li><time>10/19 22:30</time>玩到開頭，金磚島地下十層。</li>
           <li><time>10/19 22:23</time>開始玩。</li>
         </ol>
+        </details>
 
         <p class="updated">最後更新：2026-10-21 22:42（台灣時間）</p>
       </section>
@@ -82,7 +85,8 @@
           <li><strong>可選：</strong>刷 Old Axe Armor 掉的古代鎧甲（Ancient Armor），可保證挨 10 下。</li>
         </ul>
 
-        <h3>進度紀錄</h3>
+        <details class="log-box">
+          <summary>進度紀錄（22 筆）</summary>
         <ol class="log" reversed>
           <li><time>10/19 21:06</time>打倒德古拉和死神，全破（好結局）！</li>
           <li><time>10/18 23:02</time>打倒 Brauner，只剩王座之間最終戰。</li>
@@ -107,6 +111,7 @@
           <li><time>10/13 22:41</time>打倒達貢，取得變青蛙。</li>
           <li><time>10/13</time>從黃昏之森右下方存檔點（Boss 前）重新開始，等級 30。</li>
         </ol>
+        </details>
 
         <h3>攻略備忘</h3>
         <details>
